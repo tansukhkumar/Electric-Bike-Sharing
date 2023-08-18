@@ -16,7 +16,7 @@ Electric-Bike-Sharing has recently suffered considerable dips in its revenues. T
   6. 50% of time Casual users count is around 30. and 80% of time its less than 60.
   7.0For Registerd users 80% of time count is less than 300. and 50% of time its less than 200.
   8. Season columns contains alomost smiliar values for all seasons.
-  9. Weather columns have very few values for category 3 (Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds) and 4 (Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog).
+  9. Weather columns have very few values for category 3 (Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds) and 4 (Heavy Rain + Ice Pallets + Thunderstorm + Mist,       Snow + Fog).
 
 
 **Outliers Detection insights based on EDA**
@@ -41,3 +41,13 @@ Electric-Bike-Sharing has recently suffered considerable dips in its revenues. T
   8. The average count of rentals is the highest at 5 PM followed by 6 PM and 8 AM of the day.
   9. The average count of rentals is the lowest at 4 AM followed by 3 AM and 5 AM of the day.
   10. Low rentals in early morning than sudden hike in morning than gradual decline in afternoon and than again peck high in evening hours.
+
+**Hypothesis testing conclusion**
+  1. Since pvalue is greater than 0.05 so we can not reject the Null hypothesis. We don't have the sufficient evidence to say that working day has effect on the number of electric cycles being rented.
+  2. P-value is less than 0.05 therefore, the average number of rental bikes is statistically different for different seasons and different weathers.
+  3. There is statistically significant dependency of weather and season based on the number of number of bikes rented.
+
+**Recommendations**
+  1. Seasonal Marketing - Since there is a clear seasonal pattern in the count of rental bikes, Yulu can adjust its marketing strategies accordingly. Focus on promoting bike rentals during the spring         and summer months when there is higher demand. Offer seasonal discounts or special packages to attract more customers during these periods.
+  2. Time-based Pricing - Take advantage of the hourly fluctuation in bike rental counts throughout the day. Consider implementing time-based pricing where rental rates are lower during off-peak hours        and higher during peak hours. This can encourage customers to rent bikes during less busy times, balancing out the demand and optimizing the resources.
+  3. Weather-based Promotions - Recognize the impact of weather on bike rentals. Create weather-based promotions that target customers during clear and cloudy weather, as these conditions show the            highest rental counts. Yulu can offer weather-specific discounts to attract more customers during these favorable weather conditions.
